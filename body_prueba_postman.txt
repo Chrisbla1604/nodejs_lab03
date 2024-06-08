@@ -1,0 +1,16 @@
+{
+    "nombre": "FERNAN",
+    "correo": "geo@bootcamp.com",
+    "telefono": "0978658976",
+    "identificacion": "0985647374",
+    "marca": "NISSAN",
+    "modelo": "SENTRA",
+    "placa": "GSR-2456",
+    "nivelgasolina": "LLENO",
+    "observaciones": "SIN NOVEDADES",
+    "cambiofrenos": true,
+    "cambioaceite": false,
+    "diagnosticogeneral": true,
+    "alineacionbalanceo": false,
+    "sistemaelectrico": false
+}
