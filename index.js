@@ -1,17 +1,17 @@
 
 
-
 const express = require('express');
 const engine = require('ejs-locals');
-const port =3005;
+const port =4000;
 const app = express();
 const controllers = require('./controllers');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const compression = require('compression');
+const cors = require('cors');
 const db =require('./database/db');
 
-// Use the session middleware
+app.use(cors());
+
 
 app.use(session({
     secret: 'Bootcamp2024ESPOL',
@@ -24,9 +24,8 @@ app.engine('ejs', engine);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-app.use(bodyParser.json({ type: 'application/json' }));
 
-//app.use(compression);
+app.use(bodyParser.json({ type: 'application/json' }));
 
 //routing a controlares
 

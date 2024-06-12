@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6441be7c.css",
+    "main.js": "/static/js/main.654845e2.js",
+    "static/js/453.f95fe96a.chunk.js": "/static/js/453.f95fe96a.chunk.js",
+    "static/media/carshoplogo.png": "/static/media/carshoplogo.e397d3d5e55bd34f305e.png",
+    "index.html": "/index.html",
+    "main.6441be7c.css.map": "/static/css/main.6441be7c.css.map",
+    "main.654845e2.js.map": "/static/js/main.654845e2.js.map",
+    "453.f95fe96a.chunk.js.map": "/static/js/453.f95fe96a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6441be7c.css",
+    "static/js/main.654845e2.js"
+  ]
+}

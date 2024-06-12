@@ -13,8 +13,9 @@
   "author": "chrisbla160487@gmail.com <christian blanco>",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "1.20.2",
+    "body-parser": "^1.20.2",
     "compression": "^1.7.4",
+    "cors": "^2.8.5",
     "dotenv": "16.4.5",
     "ejs-locals": "1.0.2",
     "express": "4.19.2",

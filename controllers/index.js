@@ -4,13 +4,13 @@ const router = express.Router();
 
 // Here the list of controllers
 
-const userregisters = require('./userregisters');
-const userorders = require('./userorders');
+const users = require('./users');
+const carshops = require('./carshops');
 
 
 // Here the list of path
 
-router.use('/userregisters',userregisters);
-router.use('/userorders',userorders);
+router.use('/users',users);
+router.use('/carshops',carshops);
 
 module.exports = router;
